@@ -1,0 +1,98 @@
+---
+sidebar: sidebar 
+permalink: task-enable-monitoring.html 
+keywords: monitoring, cloud insights, tenant, acquisition unit, iops, throughput, latency, performance, cloud volumes ontap performance, volume performance 
+summary: 完成几个步骤以开始监控 Cloud Volumes ONTAP 性能。 
+---
+= 开始监控卷性能
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+完成几个步骤以开始监控 Cloud Volumes ONTAP 性能。
+
+
+
+== 要求
+
+请阅读以下要求，以确保您的配置受支持。
+
+支持的 Cloud Volumes ONTAP 版本:: AWS 或 Azure 中的任何 Cloud Volumes ONTAP 版本。
+支持的连接器::
++
+--
+* 对于 AWS ，您需要运行 3.8.4 或更高版本的 Connector 。
+* 对于 Azure ，您需要运行 3.9.3 或更高版本的 Connector 。
+
+
+--
+
+
+
+TIP: 您可以通过单击来查看 Connector 的版本 image:screenshot_help_icon.gif["Cloud Manager 右上角的帮助图标的屏幕截图"] 图标，然后单击 * 支持 > 连接器 * 。
+
+Cloud Central 的电子邮件地址:: Cloud Central 用户帐户的电子邮件地址应为您的业务电子邮件地址。创建 Cloud Insights 租户时，不支持 Gmail 和 Hotmail. 等免费电子邮件域。
+采集单元的网络连接:: 采集单元使用双向 / 相互身份验证连接到 Cloud Insights 服务器。客户端证书必须传递到 Cloud Insights 服务器，才能进行身份验证。为此，必须设置代理，以便将 http 请求转发到 Cloud Insights 服务器，而无需对数据进行解密。
++
+--
+采集单元使用以下两个端点与 Cloud Insights 进行通信。如果您在采集单元服务器和 Cloud Insights 之间设置了防火墙，则在配置防火墙规则时需要使用以下端点：
+
+....
+https://aulogin.<Cloud Insights Domain>
+https://<your-tenant-ID>.<Cloud Insights Domain>
+....
+例如：
+
+....
+https://aulogin.c01.cloudinsights.netapp.com
+https://cg0c586a-ee05-45rb-a5ac-333b5ae7718d7.c01.cloudinsights.netapp.com
+....
+如果您需要帮助确定 Cloud Insights 域和租户 ID ，请通过产品聊天联系我们。
+
+--
+连接器的网络连接:: 与采集单元类似，连接器必须与 Cloud Insights 租户建立出站连接。但 Connector 所接触的端点略有不同。它使用缩短后的租户 ID 联系租户主机 URL ：
++
+--
+ https://<your-short-tenant-ID>.<Cloud Insights Domain>
+例如：
+
+ https://abcd12345.c01.cloudinsights.netapp.com
+同样，如果您需要帮助确定租户主机 URL ，您可以通过产品内聊天与我们联系。
+
+--
+
+
+
+
+== 在新系统上启用监控
+
+在工作环境向导中，监控服务默认处于启用状态。请务必保持此选项处于启用状态。
+
+.步骤
+. 单击 * 创建 Cloud Volumes ONTAP * 。
+. 选择 Amazon Web Services 或 Microsoft Azure 作为云提供商，然后选择单个节点或 HA 系统。
+. 填写详细信息和凭据页面。
+. 在服务页面上，保持监控服务处于启用状态，然后单击 * 继续 * 。
++
+image:screenshot_monitoring.gif["可从工作环境向导启用的监控服务的屏幕截图。"]
+
+
+
+
+
+== 在现有系统上启用监控
+
+可随时从工作环境进行监控。
+
+.步骤
+. 在 Cloud Manager 顶部，单击 * 画布 * 。
+. 选择工作环境。
+. 在右侧窗格中，单击 * 启动监控 * 。
++
+image:screenshot_enable_monitoring.gif["[ 一个屏幕截图，其中显示了 \" 开始监控 \" 图标，在您选择工作环境后，此图标将显示在 \" 画布 \" 页面上。"]
+
+

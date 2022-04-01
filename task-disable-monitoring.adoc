@@ -1,0 +1,24 @@
+---
+sidebar: sidebar 
+permalink: task-disable-monitoring.html 
+keywords: disable monitoring, stop monitoring, disable, deactivate 
+summary: 如果您不想再监控 Cloud Volumes ONTAP ，可以随时禁用监控服务。 
+---
+= 禁用监控服务
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您不想再监控 Cloud Volumes ONTAP ，可以随时禁用监控服务。
+
+如果在每个工作环境中禁用监控，则需要自己删除虚拟机实例。此实例名为 _AcquiesitionUnit" ，并与此实例连接生成的哈希（ UUID ）。例如： _AcquiesitionUny-FAN7FqeH_
+
+.步骤
+. 在 Cloud Manager 顶部，单击 * 画布 * 。
+. 选择工作环境。
+. 在右侧窗格中，单击 image:screenshot_gallery_options.gif["选择工作环境后显示在服务窗格中的选项图标的屏幕截图"] 图标并选择 * 停用扫描 * 。
+

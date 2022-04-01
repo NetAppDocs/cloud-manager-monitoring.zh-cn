@@ -1,0 +1,70 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
+summary: 了解监控服务的新增功能。 
+---
+= 新增功能
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+了解监控服务的新增功能。
+
+
+
+== 2021 年 8 月 1 日
+
+
+
+=== 更改为采集单元名称
+
+我们将采集单元实例的默认名称更改为 CloudInsights AU-_UUID_ ，以便此名称更具描述性（ UUID 是生成的哈希）。
+
+当您在 Cloud Volumes ONTAP 工作环境中启用监控服务时， Cloud Manager 会部署此实例。
+
+
+
+== 2021 年 5 月 5 日
+
+
+
+=== 支持现有租户
+
+现在，您可以在 Cloud Volumes ONTAP 工作环境中启用监控服务，即使您已有 Cloud Insights 租户也是如此。
+
+
+
+=== 免费试用过渡
+
+启用监控服务后， Cloud Manager 将免费试用 Cloud Insights 。在第 29 天，您的计划将自动从试用版过渡到 https://docs.netapp.com/us-en/cloudinsights/concept_subscribing_to_cloud_insights.html#editions["基本版本"^]。
+
+
+
+== 2021 年 2 月 9 日
+
+
+
+=== 支持 Azure
+
+现在，适用于 Azure 的 Cloud Volumes ONTAP 支持监控服务。
+
+
+
+=== 在政府区域提供支持
+
+AWS 和 Azure 的政府区域也支持监控服务。
+
+
+
+== 2020 年 5 月 10 日
+
+
+
+=== 引入监控服务
+
+通过利用 NetApp 的 Cloud Insights 服务， Cloud Manager 可以让您深入了解 Cloud Volumes ONTAP 实例的运行状况和性能，并帮助您对云存储环境的性能进行故障排除和优化。

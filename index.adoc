@@ -1,0 +1,15 @@
+---
+layout: astra 
+sidebar: sidebar 
+permalink: index.html 
+lead: Gain insight into the health and performance of Cloud Volumes ONTAP to help you troubleshoot and optimize the performance of your cloud storage environment. 
+summary: 深入了解 Cloud Volumes ONTAP 的运行状况和性能，帮助您对云存储环境的性能进行故障排除和优化。 
+---
+= 监控文档
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+

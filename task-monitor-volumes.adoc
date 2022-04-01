@@ -1,0 +1,61 @@
+---
+sidebar: sidebar 
+permalink: task-monitor-volumes.html 
+keywords: monitoring, cloud insights, tenant, acquisition unit, iops, throughput, latency, performance, cloud volumes ontap performance, volume performance 
+summary: 深入了解 Cloud Volumes ONTAP 实例的运行状况和性能，并对云存储环境的性能进行故障排除和优化。 
+---
+= 监控卷性能
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+深入了解 Cloud Volumes ONTAP 实例的运行状况和性能，并对云存储环境的性能进行故障排除和优化。
+
+
+
+== 从 Cloud Manager 监控卷
+
+通过查看每个卷的 IOPS ，吞吐量和延迟来监控性能。
+
+.步骤
+. 在 Cloud Manager 顶部，单击 * 监控 * 。
+. 筛选信息板的内容以获取所需信息。
++
+** 选择特定的工作环境。
+** 请选择其他时间范围。
+** 选择特定 SVM 。
+** 搜索特定卷。
++
+下图突出显示了其中每个选项：
+
++
+image:screenshot_filter_options.gif["\" 监控 \" 选项卡的屏幕截图，其中显示了可用于筛选信息板内容的选项。"]
+
+
+
+. 单击表中的某个卷以展开行并查看 IOPS ，吞吐量和延迟的时间线。
++
+image:screenshot_vol_performance.gif["卷的性能数据的屏幕截图。"]
+
+. 使用数据确定性能问题，最大限度地减少对用户和应用程序的影响。
+
+
+
+
+== 从 Cloud Insights 获取详细信息
+
+Cloud Manager 中的 " 监控 " 选项卡提供卷的基本性能数据。您可以从浏览器转到 Cloud Insights Web 界面，以执行更深入的监控并为 Cloud Volumes ONTAP 系统配置警报。
+
+.步骤
+. 在 Cloud Manager 顶部，单击 * 监控 * 。
+. 单击 * Cloud Insights * 链接。
++
+image:screenshot_cloud_insights.gif["显示 \" 监控 \" 选项卡右上角的 Cloud Insights 链接的屏幕截图。"]
+
+
+
+Cloud Insights 将在新的浏览器选项卡中打开。如果需要帮助，请参见 https://docs.netapp.com/us-en/cloudinsights["Cloud Insights 文档"^]。
