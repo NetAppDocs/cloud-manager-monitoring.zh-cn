@@ -22,7 +22,7 @@ sidebar:
       url: "/concept-monitoring.html"
     - title: 快速入门
       url: "/task-quick-start.html"
-    - title: 开始监控卷性能
+    - title: 启用监控
       url: "/task-enable-monitoring.html"
   - title: 使用监控服务
     entries:

@@ -40,7 +40,7 @@ NetApp 不会因使用监控服务而向您收取费用，但 Cloud Manager 会�
 
 == 监控服务的工作原理
 
-Cloud Manager 可利用 https://cloud.netapp.com/cloud-insights["NetApp 的 Cloud Insights 服务"] 以提供监控。
+Cloud Manager 可利用 https://cloud.netapp.com/cloud-insights["NetApp 的 Cloud Insights 服务"^] 以提供监控。
 
 概括地说， Cloud Insights 与 Cloud Manager 的集成工作原理如下：
 
@@ -101,8 +101,8 @@ Cloud Manager 中的 " 监控 " 选项卡提供卷的基本性能数据。您可
 
 Cloud Manager 支持免费试用 Cloud Insights ，以便在 Cloud Manager 中提供性能数据，并帮助您了解 Cloud Insights 标准版可提供的功能。
 
-在第 29 天，您的计划会自动从试用版过渡到 https://docs.netapp.com/us-en/cloudinsights/concept_subscribing_to_cloud_insights.html#editions["基本版本"^]。
+在第 29 天，您的计划会自动从试用版过渡到 https://docs.netapp.com/us-en/cloudinsights/concept_subscribing_to_cloud_insights.html#editions["基本版本"^]
 
 您可以选择订阅标准版或高级版，以便从 Cloud Insights Web 界面访问其他功能。
 
-https://docs.netapp.com/us-en/cloudinsights/concept_subscribing_to_cloud_insights.html["了解如何订阅 Cloud Insights"^]。
+https://docs.netapp.com/us-en/cloudinsights/concept_subscribing_to_cloud_insights.html["了解如何订阅 Cloud Insights"^]

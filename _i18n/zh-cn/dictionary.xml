@@ -45,7 +45,6 @@
   <block id="10e15e8c8cca4454457cc4aaa2a56097" category="section-title">2020 年 5 月 10 日</block>
   <block id="bd64f294036bab1f6e7e3bfc511da26b" category="section-title">引入监控服务</block>
   <block id="2e68ff3befd8bbfb2e75d69f325369b3" category="paragraph">通过利用 NetApp 的 Cloud Insights 服务， Cloud Manager 可以让您深入了解 Cloud Volumes ONTAP 实例的运行状况和性能，并帮助您对云存储环境的性能进行故障排除和优化。</block>
-  <block id="aa6490d8d0bb54f0f72cb49b62bd06bf" category="doc">开始监控卷性能</block>
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="section-title">要求</block>
   <block id="4b09bdd4ca435f6a4b77b142f9481573" category="paragraph">请阅读以下要求，以确保您的配置受支持。</block>
   <block id="e448b41406bd3d4d9730e610e85df32d" category="list-text">支持的 Cloud Volumes ONTAP 版本</block>
@@ -113,7 +112,6 @@
   <block id="fa19b0daec31b7f6886f071c67bfffb7" category="paragraph">NetApp 不会因使用监控服务而向您收取费用，但 Cloud Manager 会在您的 VPC 中启动一个虚拟机以方便监控。此 VM 会从您的云提供商处收取费用。</block>
   <block id="d503d3398231cca32efdcf7ed7343e9b" category="section-title">监控服务的工作原理</block>
   <block id="fbc1b4a0f7bb67078efc945ccc522209" category="inline-link">NetApp 的 Cloud Insights 服务</block>
-  <block id="86dd05002b53a9ec34631df8c61c5eb5" category="paragraph">Cloud Manager 可利用<block ref="8f14085ef9c431637844b17f8a8925a1" category="inline-link-rx"></block> 以提供监控。</block>
   <block id="45c5224446b8976746c72ff5d83fa9b0" category="paragraph">概括地说， Cloud Insights 与 Cloud Manager 的集成工作原理如下：</block>
   <block id="268403689d82b63a213d45d09ea47780" category="list-text">您可以在 Cloud Volumes ONTAP 上启用监控服务。</block>
   <block id="6ac560cbe2255cabde3b2b9e7877bcb8" category="list-text">Cloud Manager 可配置您的环境。它可执行以下操作：</block>
@@ -143,7 +141,6 @@
   <block id="93640c5afac4938bee23d7df2567bb9d" category="paragraph">Cloud Manager 支持免费试用 Cloud Insights ，以便在 Cloud Manager 中提供性能数据，并帮助您了解 Cloud Insights 标准版可提供的功能。</block>
   <block id="3b7f31bb4dbb02b16991990721560e9e" category="paragraph">您可以选择订阅标准版或高级版，以便从 Cloud Insights Web 界面访问其他功能。</block>
   <block id="cd787eb9914f30d028c173de936884d8" category="inline-link">了解如何订阅 Cloud Insights</block>
-  <block id="ea897b0b99e2fad4f21581f468aafa9c" category="paragraph"><block ref="46bde63c6461fde9a8b1bdd87e23ae20" category="inline-link-rx"></block>。</block>
   <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">NetApp 通过多种方式为 Cloud Manager 提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和社区论坛。您的支持注册包括通过 Web 服务单提供的远程技术支持。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
   <block id="7ccaf84febc0ed633fbdbadb8d488a7e" category="paragraph"><block ref="7ccaf84febc0ed633fbdbadb8d488a7e" category="inline-link-macro-rx"></block></block>
@@ -170,4 +167,7 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
   <block id="9e27c4a53794e4f6cfc9949de58e5091" category="section-title">2021 年 8 月 1 日</block>
   <block id="d42fa6c698bffd937b50724aa035c2cb" category="section-title">2021 年 2 月 9 日</block>
+  <block id="69fc053eff677eeec878466b0fed698d" category="paragraph">Cloud Manager 可利用<block ref="044f4e0e04c4f89c85847517222669b4" category="inline-link-rx"></block> 以提供监控。</block>
+  <block id="9553e123fee6cb25d4b917ebf7b88617" category="paragraph">在第 29 天，您的计划会自动从试用版过渡到<block ref="34a93ad61035abe9ad6e17d10c04ea84" category="inline-link-rx"></block></block>
+  <block id="46bde63c6461fde9a8b1bdd87e23ae20" category="paragraph"><block ref="46bde63c6461fde9a8b1bdd87e23ae20" category="inline-link-rx"></block></block>
 </blocks>

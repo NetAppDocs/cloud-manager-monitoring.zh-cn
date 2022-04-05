@@ -4,7 +4,7 @@ permalink: task-enable-monitoring.html
 keywords: monitoring, cloud insights, tenant, acquisition unit, iops, throughput, latency, performance, cloud volumes ontap performance, volume performance 
 summary: 完成几个步骤以开始监控 Cloud Volumes ONTAP 性能。 
 ---
-= 开始监控卷性能
+= 启用监控
 :hardbreaks:
 :nofooter: 
 :icons: font
