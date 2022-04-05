@@ -6,6 +6,7 @@ summary: 如果您不想再监控 Cloud Volumes ONTAP ，可以随时禁用监�
 ---
 = 禁用监控服务
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

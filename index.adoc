@@ -7,6 +7,7 @@ summary: 深入了解 Cloud Volumes ONTAP 的运行状况和性能，帮助您�
 ---
 = 监控文档
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

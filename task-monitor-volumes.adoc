@@ -6,6 +6,7 @@ summary: 深入了解 Cloud Volumes ONTAP 实例的运行状况和性能，并�
 ---
 = 监控卷性能
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

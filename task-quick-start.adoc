@@ -6,6 +6,7 @@ summary: 完成几个步骤以开始监控 Cloud Volumes ONTAP 性能。
 ---
 = 监控服务的快速入门
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
